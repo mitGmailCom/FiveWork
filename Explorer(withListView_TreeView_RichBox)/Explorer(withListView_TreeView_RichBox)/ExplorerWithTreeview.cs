@@ -21,10 +21,10 @@ namespace Explorer_withListView_TreeView_RichBox_
         private ImageList largeIcon;
         private ImageList smallIcon;
         private ImageList stateIcon;
-        private string ImgKeyFolder = "folder";
-        private bool FlagLargeImgList { get; set; } = true;
+        private string ImgKeyFolder = "folder"; //kluch dlya papki
+        private bool FlagLargeImgList { get; set; } = true; // flag esli vibran LargeImgl
         TreeViewEventArgs tempE;
-        bool flagIfDisk = false;
+        bool flagIfDisk = false; // flag esli vibran DISK
 
         public formExplorerTreeview()
         {
